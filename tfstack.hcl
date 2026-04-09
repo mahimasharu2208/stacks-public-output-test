@@ -4,7 +4,7 @@ stack {
 }
 
 component "producer" {
-  source = "./components/producer"
+  source = "components/producer"
 }
 
 publish_output "exported_value" {
