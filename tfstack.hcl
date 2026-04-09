@@ -3,7 +3,7 @@
 stack {
   name = "stacks-public-output-test"
 }
-
+ 
 component "producer" {
   source = "./components/producer"
 }
