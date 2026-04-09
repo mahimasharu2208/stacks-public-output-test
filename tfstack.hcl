@@ -1,7 +1,10 @@
 # tfstack.hcl
 
 stack {
-  name = "repro-stack"
+  name = "stacks-public-output-test"
+  
+  # Add this line if you don't want to use a separate file
+  terraform_version = "1.9.0" 
 }
 
 component "producer" {
