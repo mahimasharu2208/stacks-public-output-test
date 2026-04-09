@@ -8,5 +8,5 @@ component "producer" {
 }
 
 publish_output "exported_value" {
-  value = component.producer.test_value
+  value = "Hello from the producer component"
 }
